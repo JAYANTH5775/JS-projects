@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: greenyellow;
+    font-family: sans-serif;
+
+}
+
+.Container
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.Calculator
+{
+background-color:brown;
+box-shadow: 10px , 10px 30px whitesmoke;
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px; 
+width : 300px; 
+}
+.Screen
+{
+
+background-color: rgb(196, 252, 255);
+border-radius: 10px;
+box-shadow: inset  5px 5px 5px white, inset -5px -5px 10px;
+color:black; 
+font-size: 24px;
+font-weight: bold;
+height: 65px; 
+padding: 20px;
+margin-bottom: 20px;
+
+text-align: right; 
+width:100%;
+}
+
+button{
+    background-color: bisque;
+
+    border:None; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px   rgb(255, 242, 0), -5px, -5px 10px #ffffff;
+    height : 60px; 
+   
+    margin: 5px; 
+    padding : 0 20px; 
+    transition: box-shadow 0.3s  ease;
+    width:calc(25% -10px); 
+
+
+
+
+
+}
+
+
+.clear
+{
+    background-color: red;
+    box-shadow: 5px , 5px , 10px #c0c0c0,-5px -5px 10px #ffffff; 
+    color : #ffffff; 
+    width: 100%; 
+}
+
+
+
+
+button:hover { 
+    box-shadow: 8px   5px 5px #c0c0c0, inset -2px -2px 5px #ffffff; 
+}
