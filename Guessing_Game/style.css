@@ -1,0 +1,57 @@
+div{
+    align-items: center;
+
+}
+
+h1{
+    align-items: center;
+    margin-bottom:5px;
+}
+
+
+p
+{
+    font-size: 18px; 
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: bisque;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.container
+{
+    background-color: aliceblue;
+
+    padding:20px; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px white 5px  10px 5px whitesmoke;
+    border-top: 2000px;
+    border-bottom: 300px;
+
+}
+
+
+input[type = number]
+{
+    padding: 10px;
+    font-size:18px; 
+    border-radius: 5px; 
+    background-color: aquamarine;
+    color:#fff; 
+    width: 70%; 
+    margin-right: 10px; 
+    box-shadow: 3px 3px 5px #c71c1c,-3px -3px 5px #f6f6f6;
+}
+
+/* button{
+    padding: 10px; 
+    font-size: 18px; 
+    border-radius: 5px; 
+    border:none;
+
+} */
