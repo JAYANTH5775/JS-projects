@@ -1,0 +1,102 @@
+/* html, */
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.container {
+  max-width: 960px;
+  align-items: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  border: 400px;
+  padding-top: 45%;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+  
+}
+
+.logo-container{
+    width:35px;
+    height: 25px;
+    
+}
+
+
+
+
+#logo1
+{
+    height:0.4px;
+    width:0.4px;
+    
+}
+.image {
+    width: 50%;
+    height: auto;
+  }
+
+
+
+
+
+/* 
+To center a div element on a webpage, you can use the CSS margin property. Here are a few different methods you can try:
+
+Using auto margin
+html
+Copy code
+<div style="margin: auto;">Content goes here</div>
+This method sets the left and right margins to "auto", which will center the element horizontally within its parent container. Note that this only works if the element has a fixed width.
+
+Using flexbox
+html
+Copy code
+<div style="display: flex; justify-content: center; align-items: center;">Content goes here</div>
+This method uses flexbox to center the element both horizontally and vertically within its parent container. The justify-content property centers the element horizontally, while the align-items property centers it vertically.
+
+Using absolute positioning
+html
+Copy code
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Content goes here</div>
+This method positions the element at the center of its parent container using absolute positioning and the transform property. The top and left properties set the starting position of the element, while the `transform: translate(-
+ */
+
+
+
+
+
+
